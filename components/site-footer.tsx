@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import { basePath } from "@/lib/utils"
 import { Separator } from "@/components/ui/separator"
 
 const footerLinks = {
@@ -23,7 +24,7 @@ export function SiteFooter() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <Image
-              src="/logo-dark.png"
+              src={`${basePath}/logo-dark.png`}
               alt="Rodobras Guindastes"
               width={140}
               height={40}

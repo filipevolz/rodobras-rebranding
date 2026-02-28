@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
+import { basePath } from "@/lib/utils"
 
 const clients = [
   { name: "Eletrobras Eletrosul", src: "/01.png" },
@@ -30,7 +31,7 @@ export function ClientsSection() {
               className="flex items-center justify-center rounded-xl border border-border bg-card p-6 transition-shadow hover:shadow-md"
             >
               <Image
-                src={client.src}
+                src={`${basePath}${client.src}`}
                 alt={`Logo ${client.name}`}
                 width={120}
                 height={48}

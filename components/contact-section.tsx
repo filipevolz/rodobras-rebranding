@@ -1,4 +1,6 @@
+import Image from "next/image"
 import { Phone, Mail, MessageCircle, MapPin } from "lucide-react"
+import { basePath } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
@@ -70,9 +72,11 @@ export function ContactSection() {
             <Card className="overflow-hidden border-0 bg-primary">
               <CardContent className="flex flex-col items-center gap-6 p-8 text-center lg:p-10">
                 <span className="flex size-20 items-center justify-center" aria-hidden="true">
-                  <img
-                    src="/rodobras-marca.png"
+                  <Image
+                    src={`${basePath}/rodobras-marca.png`}
                     alt="Rodobras Guindastes"
+                    width={56}
+                    height={56}
                     className="h-14 w-auto object-contain brightness-0 invert"
                   />
                 </span>

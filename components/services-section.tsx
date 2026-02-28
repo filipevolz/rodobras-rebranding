@@ -13,6 +13,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import type { CarouselApi } from "@/components/ui/carousel"
+import { basePath } from "@/lib/utils"
 
 const guindastesCarouselImages = [
   "/guindastes_rodobras-01.jpg",
@@ -59,7 +60,7 @@ function ServiceCarousel({
             <CarouselItem key={src} className="pl-0">
               <div className="relative h-72 w-full">
                 <Image
-                  src={src}
+                  src={`${basePath}${src}`}
                   alt={`${title} - imagem ${i + 1}`}
                   fill
                   className="object-cover"
@@ -150,7 +151,7 @@ export function ServicesSection() {
                 ) : (
                   <>
                     <Image
-                      src={service.image}
+                      src={`${basePath}${service.image}`}
                       alt={service.title}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"

@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
+import { basePath } from "@/lib/utils"
 
 const equipment = [
   {
@@ -64,7 +65,7 @@ export function EquipmentSection() {
             >
               <div className="relative h-48 overflow-hidden">
                 <Image
-                  src={item.image}
+                  src={`${basePath}${item.image}`}
                   alt={item.name}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"

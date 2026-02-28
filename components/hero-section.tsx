@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import { basePath } from "@/lib/utils"
 import { ArrowRight, Phone, Shield, Clock, Truck } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -81,7 +82,7 @@ export function HeroSection() {
           </div>
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-border">
               <Image
-                src="munks_rodobras-01.jpg"
+                src={`${basePath}/munks_rodobras-01.jpg`}
                 alt="Guindaste Rodobras em operacao"
                 fill
                 className="object-cover"

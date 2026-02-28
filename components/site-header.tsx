@@ -4,6 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Menu, Phone } from "lucide-react"
+import { basePath } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet"
 
@@ -24,7 +25,7 @@ export function SiteHeader() {
         {/* Logo */}
         <Link href="#inicio" className="flex items-center">
           <Image
-            src="/logo-dark.png"
+            src={`${basePath}/logo-dark.png`}
             alt="Rodobras Guindastes"
             width={140}
             height={40}

@@ -30,6 +30,8 @@ jobs:
         run: npm ci
 
       - name: Build
+        env:
+          NEXT_PUBLIC_BASE_PATH: /rodobras-rebranding
         run: npm run build
 
       - name: Upload artifact

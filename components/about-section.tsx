@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { basePath } from "@/lib/utils"
 import { Badge } from "@/components/ui/badge"
 import { Wrench, Users, Award } from "lucide-react"
 
@@ -37,7 +38,7 @@ export function AboutSection() {
               <div className="absolute -bottom-4 -right-4 h-full w-full rounded-2xl bg-accent/20" aria-hidden="true" />
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl">
                 <Image
-                src="/04.jpg"
+                src={`${basePath}/04.jpg`}
                 alt="Rodobras Guindastes - solucoes para qualquer porte de projeto"
                 fill
                 className="object-cover"
