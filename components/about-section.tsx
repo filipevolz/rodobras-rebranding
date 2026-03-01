@@ -14,7 +14,7 @@ const features = [
     icon: Users,
     title: "Equipe Experiente",
     description:
-      "Equipe comprometida e credenciada pela experiencia, capacitada em cursos e treinamentos.",
+      "Equipe comprometida e credenciada pela experiência, capacitada em cursos e treinamentos.",
   },
   {
     icon: Award,

@@ -60,7 +60,7 @@ export function HeroSection() {
               </span>
               <span>
                 <span className="block text-sm font-bold text-foreground">+25 anos</span>
-                <span className="block text-xs text-muted-foreground">de experiencia</span>
+                <span className="block text-xs text-muted-foreground">de experiência</span>
               </span>
             </li>
             <li className="flex items-center gap-3">
@@ -69,7 +69,7 @@ export function HeroSection() {
               </span>
               <span>
                 <span className="block text-sm font-bold text-foreground">240 ton</span>
-                <span className="block text-xs text-muted-foreground">capacidade maxima</span>
+                <span className="block text-xs text-muted-foreground">capacidade máxima</span>
               </span>
             </li>
             <li className="flex items-center gap-3">
@@ -78,7 +78,7 @@ export function HeroSection() {
               </span>
               <span>
                 <span className="block text-sm font-bold text-foreground">95 metros</span>
-                <span className="block text-xs text-muted-foreground">alcance maximo</span>
+                <span className="block text-xs text-muted-foreground">alcance máximo</span>
               </span>
             </li>
           </ul>
@@ -91,7 +91,7 @@ export function HeroSection() {
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-border hidden md:block">
               <Image
                 src={`${basePath}/munks_rodobras-01.jpg`}
-                alt="Guindaste Rodobras em operacao"
+                alt="Guindaste Rodobras em operação"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

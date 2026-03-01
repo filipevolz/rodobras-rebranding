@@ -86,8 +86,8 @@ const services = [
   {
     icon: Container,
     title: "Locação de Guindastes",
-    description: "Icamentos de cargas pesadas ou delicadas a grandes alturas. Atendimentos com alcance de ate 95 metros e capacidade de ate 240 toneladas.",
-    applications: ["Montagens de estruturas metalicas", "Icamento de equipamentos", "Lancamento de caixas d'agua", "Instalacao de silos e caldeiras"],
+    description: "Icamentos de cargas pesadas ou delicadas a grandes alturas. Atendimentos com alcance de até 95 metros e capacidade de até 240 toneladas.",
+    applications: ["Montagens de estruturas metálicas", "Icamento de equipamentos", "Lançamento de caixas d'água", "Instalação de silos e caldeiras"],
     image: "/guindastes_rodobras-01.jpg",
     badge: "Ate 240 toneladas",
     carouselImages: guindastesCarouselImages,
@@ -95,8 +95,8 @@ const services = [
   {
     icon: Truck,
     title: "Locação de Muncks",
-    description: "Guindastes articulados sobre caminhao com carroceria. Icamentos, transporte, carga e descarga com o mesmo equipamento.",
-    applications: ["Transporte com carga e descarga", "Icamento e transporte de moveis", "Apoio em montagens de silos", "Retirada de veiculos acidentados"],
+    description: "Guindastes articulados sobre caminhão com carroceria. Icamentos, transporte, carga e descarga com o mesmo equipamento.",
+    applications: ["Transporte com carga e descarga", "Icamento e transporte de móveis", "Apoio em montagens de silos", "Retirada de veículos acidentados"],
     image: "/munks_rodobras-01.jpg",
     badge: "Ate 17 toneladas",
     carouselImages: munksCarouselImages,
@@ -104,8 +104,8 @@ const services = [
   {
     icon: PackageOpen,
     title: "Remocoes de Cargas",
-    description: "Remocao em ambiente fechado de cargas pesadas ou delicadas. Movimentacao vertical e horizontal de maquinas e equipamentos.",
-    applications: ["Movimentacao de injetoras e extrusoras", "Maquinas graficas em industrias", "Descida e subida por escadas", "Ambientes de dificil acesso"],
+    description: "Remoção em ambiente fechado de cargas pesadas ou delicadas. Movimentação vertical e horizontal de máquinas e equipamentos.",
+    applications: ["Movimentacao de injetoras e extrusoras", "Máquinas gráficas em indústrias", "Descida e subida por escadas", "Ambientes de dificil acesso"],
     image: "/remocoes_rodobras-01.jpg",
     badge: "Ambientes fechados",
     carouselImages: remocoesCarouselImages,
@@ -113,8 +113,8 @@ const services = [
   {
     icon: Route,
     title: "Transportes Especiais",
-    description: "Transportes de maquinas e demais cargas com excessos de peso, altura, comprimento ou largura. Operacao sob condicoes especiais.",
-    applications: ["Pranchas rebaixadas e extensivas", "Escolta credenciada", "Autorizacao de orgaos de transito", "Cargas de longa distancia"],
+    description: "Transportes de maquinas e demais cargas com excessos de peso, altura, comprimento ou largura. Operação sob condições especiais.",
+    applications: ["Pranchas rebaixadas e extensivas", "Escolta credenciada", "Autorização de órgãos de trânsito", "Cargas de longa distância"],
     image: "/transportes-especiais_rodobras-01.jpg",
     badge: "Cargas especiais",
     carouselImages: transportesCarouselImages,
