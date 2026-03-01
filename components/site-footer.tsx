@@ -14,6 +14,7 @@ const footerLinks = {
     { label: "Sobre Nós", href: "#sobre" },
     { label: "Clientes", href: "#clientes" },
     { label: "Contato", href: "#contato" },
+    { label: "Política de Privacidade", href: "/politica-de-privacidade" },
   ],
 }
 
