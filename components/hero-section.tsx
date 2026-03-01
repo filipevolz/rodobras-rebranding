@@ -85,7 +85,7 @@ export function HeroSection() {
           </ul>
         </div>
 
-        <figure className="mt-12 min-w-0 w-full flex-1 lg:mt-0">
+        <figure className="mt-12 min-w-0 w-full flex-[1.2] lg:mt-0">
           <div className="relative" aria-hidden="true">
             <div className="absolute -inset-4 rounded-2xl bg-accent/20 blur-2xl" />
           </div>
