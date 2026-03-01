@@ -39,7 +39,7 @@ export function HeroSection() {
           </h1>
 
           <p className="mt-6 w-full max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground break-words lg:text-xl">
-            Locação de guindastes, muncks, transportes especiais e remocao de cargas. Atendemos com alcance de ate 95 metros e capacidade de ate 240 toneladas.
+            Locação de guindastes, muncks, transportes especiais e remoção de cargas. Atendemos com alcance de até 95 metros e capacidade de até 240 toneladas.
           </p>
 
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row lg:justify-start">

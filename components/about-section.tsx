@@ -39,7 +39,7 @@ export function AboutSection() {
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl">
                 <Image
                 src={`${basePath}/04.jpg`}
-                alt="Rodobras Guindastes - solucoes para qualquer porte de projeto"
+                alt="Rodobras Guindastes - soluções para qualquer porte de projeto"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -50,14 +50,14 @@ export function AboutSection() {
 
           <article className="flex-1">
             <h2 id="sobre-heading" className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-              Grandes solucoes para qualquer porte de projeto{" "}
+              Grandes soluções para qualquer porte de projeto{" "}
               <span className="text-accent">desde 1999</span>
             </h2>
             <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-              Geramos resultados inteligentes, economicos e seguros para problemas de peso e altura. Atuamos em atendimentos especificos e imediatos, contratos por periodos alongados em grandes obras nas cidades de Santa Catarina, com foco na grande Florianopolis, Tijucas, Itajai, Balneario Camboriu e demais cidades litoraneas. No estado do Rio de Janeiro, com forte presenca na Capital e Baixada Fluminense.
+              Geramos resultados inteligentes, econômicos e seguros para problemas de peso e altura. Atuamos em atendimentos específicos e imediatos, contratos por períodos alongados em grandes obras nas cidades de Santa Catarina, com foco na grande Florianópolis, Tijucas, Itajai, Balneário Camboriú e demais cidades litorâneas. No estado do Rio de Janeiro, com forte presença na Capital e Baixada Fluminense.
             </p>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-              Orgulhamo-nos de nossa presenca em importantes obras e grandes projetos de nivel nacional, que nos deram referencia em bom atendimento em ambientes complexos e duradouros.
+              Orgulhamo-nos de nossa presença em importantes obras e grandes projetos de nível nacional, que nos deram referência em bom atendimento em ambientes complexos e duradouros.
             </p>
           </article>
         </div>

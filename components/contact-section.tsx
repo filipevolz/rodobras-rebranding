@@ -44,7 +44,7 @@ export function ContactSection() {
               <span className="text-accent">orçamento</span>
             </h2>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-              Entre em contato para orçamentos e informações. Nossa equipe esta pronta para atender seu projeto.
+              Entre em contato para orçamentos e informações. Nossa equipe está pronta para atender seu projeto.
             </p>
 
             <ul className="mt-8 grid gap-4 sm:grid-cols-2" aria-label="Canais de contato">

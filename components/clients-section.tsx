@@ -17,10 +17,10 @@ export function ClientsSection() {
         <header className="mx-auto max-w-2xl text-center">
           <Badge variant="secondary" className="mb-4">Nossos Clientes</Badge>
           <h2 id="clientes-heading" className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Confianca de grandes empresas
+            Confiança de grandes empresas
           </h2>
           <p className="mt-4 text-pretty text-muted-foreground leading-relaxed">
-            Empresas de nivel nacional confiam na Rodobras para seus projetos mais exigentes.
+            Empresas de nível nacional confiam na Rodobras para seus projetos mais exigentes.
           </p>
         </header>
 

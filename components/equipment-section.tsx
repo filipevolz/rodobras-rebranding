@@ -7,7 +7,7 @@ const equipment = [
   {
     name: "Guindastes",
     image: "/guindastes_rodobras-01.jpg",
-    description: "Ate 240 toneladas de capacidade",
+    description: "Até 240 toneladas de capacidade",
   },
   {
     name: "Muncks",
@@ -22,7 +22,7 @@ const equipment = [
   {
     name: "Manipuladores",
     image: "/03.png",
-    description: "Versatilidade em movimentacao",
+    description: "Versatilidade em movimentação",
   },
   {
     name: "Empilhadeiras",
@@ -32,12 +32,12 @@ const equipment = [
   {
     name: "Plataforma Elevatoria",
     image: "/01.png",
-    description: "Elevacao segura de pessoal",
+    description: "Elevação segura de pessoal",
   },
   {
-    name: "Equipamentos de Remocao",
+    name: "Equipamentos de Remoção",
     image: "/remocoes_rodobras-01.jpg",
-    description: "Solucoes para ambientes restritos",
+    description: "Soluções para ambientes restritos",
   },
 ]
 

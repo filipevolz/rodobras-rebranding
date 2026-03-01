@@ -86,24 +86,24 @@ const services = [
   {
     icon: Container,
     title: "Locação de Guindastes",
-    description: "Icamentos de cargas pesadas ou delicadas a grandes alturas. Atendimentos com alcance de até 95 metros e capacidade de até 240 toneladas.",
-    applications: ["Montagens de estruturas metálicas", "Icamento de equipamentos", "Lançamento de caixas d'água", "Instalação de silos e caldeiras"],
+    description: "Íçamentos de cargas pesadas ou delicadas a grandes alturas. Atendimentos com alcance de até 95 metros e capacidade de até 240 toneladas.",
+    applications: ["Montagens de estruturas metálicas", "Íçamento de equipamentos", "Lançamento de caixas d'água", "Instalação de silos e caldeiras"],
     image: "/guindastes_rodobras-01.jpg",
-    badge: "Ate 240 toneladas",
+    badge: "Até 240 toneladas",
     carouselImages: guindastesCarouselImages,
   },
   {
     icon: Truck,
     title: "Locação de Muncks",
-    description: "Guindastes articulados sobre caminhão com carroceria. Icamentos, transporte, carga e descarga com o mesmo equipamento.",
-    applications: ["Transporte com carga e descarga", "Icamento e transporte de móveis", "Apoio em montagens de silos", "Retirada de veículos acidentados"],
+    description: "Guindastes articulados sobre caminhão com carroceria. Íçamentos, transporte, carga e descarga com o mesmo equipamento.",
+    applications: ["Transporte com carga e descarga", "Íçamento e transporte de móveis", "Apoio em montagens de silos", "Retirada de veículos acidentados"],
     image: "/munks_rodobras-01.jpg",
-    badge: "Ate 17 toneladas",
+    badge: "Até 17 toneladas",
     carouselImages: munksCarouselImages,
   },
   {
     icon: PackageOpen,
-    title: "Remocoes de Cargas",
+    title: "Remoções de Cargas",
     description: "Remoção em ambiente fechado de cargas pesadas ou delicadas. Movimentação vertical e horizontal de máquinas e equipamentos.",
     applications: ["Movimentacao de injetoras e extrusoras", "Máquinas gráficas em indústrias", "Descida e subida por escadas", "Ambientes de dificil acesso"],
     image: "/remocoes_rodobras-01.jpg",
@@ -128,11 +128,11 @@ export function ServicesSection() {
         <header className="mx-auto max-w-2xl text-center">
           <Badge variant="secondary" className="mb-4">Nossos Servicos</Badge>
           <h2 id="servicos-heading" className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Sua melhor contratacao para servicos de{" "}
+            Sua melhor contratação para serviços de{" "}
             <span className="text-accent">movimentacao de cargas</span>
           </h2>
           <p className="mt-4 text-pretty text-muted-foreground leading-relaxed">
-            Oferecemos solucoes completas e integradas para qualquer tipo de necessidade em movimentacao, icamento e transporte de cargas.
+            Oferecemos soluções completas e integradas para qualquer tipo de necessidade em movimentação, íçamento e transporte de cargas.
           </p>
         </header>
 
