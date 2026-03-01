@@ -8,7 +8,10 @@ const _inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 export const metadata: Metadata = {
   title: 'Rodobras Guindastes | Locação de Guindastes e Muncks',
   icons: {
-    icon: '/favicon.ico',
+    icon:
+      process.env.NODE_ENV === "production"
+        ? "/rodobras-rebranding/favicon.ico"
+        : "/favicon.ico",
   },
   description:
     'Locação de guindastes, muncks, carretas rebaixadas e serviços de remoção de cargas pesadas. Soluções integradas para qualquer porte de projeto desde 1999.',
