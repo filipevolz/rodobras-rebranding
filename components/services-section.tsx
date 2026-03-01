@@ -113,7 +113,7 @@ const services = [
   {
     icon: Route,
     title: "Transportes Especiais",
-    description: "Transportes de maquinas e demais cargas com excessos de peso, altura, comprimento ou largura. Operação sob condições especiais.",
+    description: "Transportes de máquinas e demais cargas com excessos de peso, altura, comprimento ou largura. Operação sob condições especiais.",
     applications: ["Pranchas rebaixadas e extensivas", "Escolta credenciada", "Autorização de órgãos de trânsito", "Cargas de longa distância"],
     image: "/transportes-especiais_rodobras-01.jpg",
     badge: "Cargas especiais",
