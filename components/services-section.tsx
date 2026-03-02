@@ -183,7 +183,7 @@ export function ServicesSection() {
 
               <CardContent>
                 <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-                  Aplicacoes
+                  Aplicações
                 </p>
                 <ul className="grid grid-cols-2 gap-2">
                   {service.applications.map((app) => (
