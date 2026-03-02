@@ -15,8 +15,8 @@ const contactInfo = [
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: "(48) 99158-2727",
-    href: "https://wa.me/5548991582727",
+    value: "(48) 3285-2727",
+    href: "https://wa.me/554832852727",
   },
   {
     icon: Mail,
@@ -89,7 +89,7 @@ export function ContactSection() {
                   </p>
                 </div>
                 <Button asChild variant="outline" size="lg" className="w-full border-accent-foreground/30 bg-transparent text-accent-foreground hover:bg-accent-foreground/10 hover:text-accent-foreground dark:border-accent-foreground/50 dark:bg-transparent dark:hover:bg-accent-foreground/20 dark:hover:border-accent-foreground/70">
-                  <a href="https://wa.me/5548991582727" target="_blank">
+                  <a href="https://wa.me/554832852727" target="_blank">
                     <MessageCircle className="size-5" />
                     Iniciar Conversa
                   </a>
