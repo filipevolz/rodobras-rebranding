@@ -85,24 +85,37 @@ export function SiteFooter() {
 
         <Separator className="my-8 bg-primary-foreground/10" />
 
-        <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-          <p className="text-xs text-primary-foreground">
-            Rodobras Guindastes. Todos os direitos reservados.
+        <div className="flex flex-col gap-3">
+          <div className="flex flex-col items-center justify-between gap-4 md:flex-row md:items-center">
+            <p className="text-xs text-primary-foreground text-center md:text-left">
+              Rodobras Guindastes. Todos os direitos reservados.
+            </p>
+            <nav className="flex items-center gap-6" aria-label="Contato">
+              <a
+                href="tel:+554832852727"
+                className="text-xs text-primary-foreground transition-colors hover:text-primary-foreground hover:underline"
+              >
+                (48) 3285-2727
+              </a>
+              <a
+                href="mailto:contato@rodobrasguindastes.com.br"
+                className="text-xs text-primary-foreground transition-colors hover:text-primary-foreground hover:underline"
+              >
+                contato@rodobrasguindastes.com.br
+              </a>
+            </nav>
+          </div>
+          <p className="text-xs text-primary-foreground/80 text-center md:text-left">
+            Desenvolvido por{" "}
+            <a
+              href="https://www.linkedin.com/in/filipe-volz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-foreground hover:underline"
+            >
+              Filipe Volz
+            </a>
           </p>
-          <nav className="flex items-center gap-6" aria-label="Contato">
-            <a
-              href="tel:+554832852727"
-              className="text-xs text-primary-foreground transition-colors hover:text-primary-foreground hover:underline"
-            >
-              (48) 3285-2727
-            </a>
-            <a
-              href="mailto:contato@rodobrasguindastes.com.br"
-              className="text-xs text-primary-foreground transition-colors hover:text-primary-foreground hover:underline"
-            >
-              contato@rodobrasguindastes.com.br
-            </a>
-          </nav>
         </div>
       </div>
     </footer>
