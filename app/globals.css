@@ -130,4 +130,5 @@
 .rodobras-marker.leaflet-marker-icon {
   background: transparent !important;
   border: none !important;
+  cursor: pointer;
 }

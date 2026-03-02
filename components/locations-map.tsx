@@ -48,9 +48,10 @@ export function LocationsMap() {
       )
 
       RODOBRAS_LOCATIONS.forEach(([lat, lng]) => {
-        L.default.marker([lat, lng], { icon: rodobrasIcon })
-          .addTo(map)
-          .bindPopup("Rodobras Guindastes & Muncks")
+        const marker = L.default.marker([lat, lng], { icon: rodobrasIcon }).addTo(map)
+        marker.on("click", () => {
+          window.open(`https://www.google.com/maps?q=${lat},${lng}`, "_blank", "noopener,noreferrer")
+        })
       })
 
       map.fitBounds(bounds.pad(0.15))
