@@ -49,7 +49,7 @@ export function AboutSection() {
           </figure>
 
           <article className="flex-1">
-            <h2 id="sobre-heading" className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+            <h2 id="sobre-heading" className="text-balance text-3xl text-center md:text-left font-bold tracking-tight text-foreground md:text-4xl">
               Grandes soluções para qualquer porte de projeto{" "}
               <span className="text-accent">desde 1999</span>
             </h2>
