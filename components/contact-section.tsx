@@ -57,8 +57,8 @@ export function ContactSection() {
                           <info.icon className="size-5 text-primary" />
                         </span>
                         <span className="min-w-0">
-                          <span className="block text-xs font-medium uppercase tracking-wider text-muted-foreground">{info.label}</span>
-                          <span className="block truncate text-sm font-semibold text-foreground">{info.value}</span>
+                          <span className="block text-xs text-left font-medium uppercase tracking-wider text-muted-foreground">{info.label}</span>
+                          <span className="block truncate text-left text-sm font-semibold text-foreground">{info.value}</span>
                         </span>
                       </CardContent>
                     </Card>
