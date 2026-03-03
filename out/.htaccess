@@ -1,0 +1,37 @@
+# Garante que pastas com index.html sejam servidas (evita 403 em /politica-de-privacidade/)
+DirectoryIndex index.html
+
+# Permite que o Apache sirva o index.html quando a URL termina com /
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+</IfModule>
+
+# Cache eficiente para melhorar performance no celular e desktop (PageSpeed: ciclos de vida de cache)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  # HTML: revalidação curta (permite atualizar o site)
+  ExpiresByType text/html "access plus 0 seconds"
+  # JS/CSS do Next em _next/static: 1 ano (nomes com hash são imutáveis)
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+  ExpiresByType text/css "access plus 1 year"
+  # Imagens e fontes: 1 mês (reduz transferência em visitas repetidas)
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 month"
+  ExpiresByType font/woff2 "access plus 1 month"
+  ExpiresByType font/woff "access plus 1 month"
+</IfModule>
+<IfModule mod_headers.c>
+  # Cache-Control para JS/CSS (imutável, 1 ano) - economiza ~112 KiB+ em revisitas
+  <FilesMatch "\.(js|css)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  # Imagens e fontes (30 dias)
+  <FilesMatch "\.(jpg|jpeg|png|webp|gif|ico|svg|woff2?)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+</IfModule>

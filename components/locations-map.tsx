@@ -9,6 +9,8 @@ const RODOBRAS_LOCATIONS: [number, number][] = [
   [-27.4515, -48.40425],
 ]
 
+const LOCATION_NAMES = ["Florianópolis", "Palhoça", "Biguaçu", "Ingleses"]
+
 export function LocationsMap() {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<unknown>(null)
@@ -47,8 +49,19 @@ export function LocationsMap() {
         RODOBRAS_LOCATIONS.map(([lat, lng]) => [lat, lng] as [number, number])
       )
 
-      RODOBRAS_LOCATIONS.forEach(([lat, lng]) => {
-        const marker = L.default.marker([lat, lng], { icon: rodobrasIcon }).addTo(map)
+      RODOBRAS_LOCATIONS.forEach(([lat, lng], index) => {
+        const name = LOCATION_NAMES[index] ?? `Unidade ${index + 1}`
+        const ariaLabel = `Unidade Rodobras ${name} - Abrir localização no Google Maps`
+        const marker = L.default.marker([lat, lng], {
+          icon: rodobrasIcon,
+          alt: ariaLabel,
+        }).addTo(map)
+        const setAriaLabel = () => {
+          const iconEl = (marker as unknown as { _icon?: HTMLElement })._icon
+          if (iconEl) iconEl.setAttribute("aria-label", ariaLabel)
+        }
+        setAriaLabel()
+        marker.on("add", setAriaLabel)
         marker.on("click", () => {
           window.open(`https://www.google.com/maps?q=${lat},${lng}`, "_blank", "noopener,noreferrer")
         })

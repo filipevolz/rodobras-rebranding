@@ -69,6 +69,7 @@ export function HeroSection() {
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 priority
+                fetchPriority="high"
               />
           </div>
         </figure>

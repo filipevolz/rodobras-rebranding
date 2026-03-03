@@ -5,15 +5,16 @@ import { ThemeProvider } from '@/components/theme-provider'
 import { WhatsAppFloat } from '@/components/whatsapp-float'
 import './globals.css'
 
-const _inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const _inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'Rodobras Guindastes | Locação de Guindastes e Muncks',
   icons: {
-    icon:
-      process.env.NODE_ENV === "production"
-        ? "/rodobras-rebranding/favicon.ico"
-        : "/favicon.ico",
+    icon: '/favicon.ico',
   },
   description:
     'Locação de guindastes, muncks, carretas rebaixadas e serviços de remoção de cargas pesadas. Atendemos Florianópolis (Coqueiros, Via Expressa, Norte da Ilha), São José, Palhoça e Biguaçu. Soluções integradas para qualquer porte de projeto desde 1999.',
