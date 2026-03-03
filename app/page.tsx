@@ -1,11 +1,31 @@
+import dynamic from "next/dynamic"
 import { SiteHeader } from "@/components/site-header"
 import { HeroSection } from "@/components/hero-section"
-import { ServicesSection } from "@/components/services-section"
-import { AboutSection } from "@/components/about-section"
-import { ClientsSection } from "@/components/clients-section"
-import { CtaSection } from "@/components/cta-section"
-import { ContactSection } from "@/components/contact-section"
-import { SiteFooter } from "@/components/site-footer"
+
+const ServicesSection = dynamic(
+  () => import("@/components/services-section").then((m) => m.ServicesSection),
+  { ssr: true }
+)
+const AboutSection = dynamic(
+  () => import("@/components/about-section").then((m) => m.AboutSection),
+  { ssr: true }
+)
+const ClientsSection = dynamic(
+  () => import("@/components/clients-section").then((m) => m.ClientsSection),
+  { ssr: true }
+)
+const CtaSection = dynamic(
+  () => import("@/components/cta-section").then((m) => m.CtaSection),
+  { ssr: true }
+)
+const ContactSection = dynamic(
+  () => import("@/components/contact-section").then((m) => m.ContactSection),
+  { ssr: true }
+)
+const SiteFooter = dynamic(
+  () => import("@/components/site-footer").then((m) => m.SiteFooter),
+  { ssr: true }
+)
 
 export default function HomePage() {
   return (
