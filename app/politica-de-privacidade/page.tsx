@@ -7,6 +7,19 @@ export const metadata: Metadata = {
   title: "Política de Privacidade | Rodobras Guindastes & Muncks",
   description:
     "Política de Privacidade da Rodobras Guindastes & Muncks. Conheça como coletamos, usamos e protegemos seus dados pessoais em conformidade com a LGPD.",
+  keywords: [
+    "guindastes",
+    "muncks",
+    "locação",
+    "Florianópolis",
+    "Coqueiros",
+    "Via Expressa",
+    "Norte da Ilha",
+    "São José",
+    "Palhoça",
+    "Biguaçu",
+    "Santa Catarina",
+  ],
 }
 
 export default function PoliticaDePrivacidadePage() {

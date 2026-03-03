@@ -33,7 +33,7 @@ export function SiteFooter() {
               className="h-9 w-auto brightness-0 invert"
             />
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-primary-foreground">
-              Soluções integradas em locação de guindastes, muncks, transportes especiais e remoção de cargas. Atendendo com excelência desde 1999.
+              Soluções integradas em locação de guindastes, muncks, transportes especiais e remoção de cargas. Atendemos Florianópolis (Coqueiros, Via Expressa, Norte da Ilha), São José, Palhoça e Biguaçu. Atendendo com excelência desde 1999.
             </p>
           </div>
 

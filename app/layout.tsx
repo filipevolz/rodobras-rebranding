@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         : "/favicon.ico",
   },
   description:
-    'Locação de guindastes, muncks, carretas rebaixadas e serviços de remoção de cargas pesadas. Soluções integradas para qualquer porte de projeto desde 1999.',
+    'Locação de guindastes, muncks, carretas rebaixadas e serviços de remoção de cargas pesadas. Atendemos Florianópolis (Coqueiros, Via Expressa, Norte da Ilha), São José, Palhoça e Biguaçu. Soluções integradas para qualquer porte de projeto desde 1999.',
   keywords: [
     'guindastes',
     'muncks',
@@ -26,6 +26,13 @@ export const metadata: Metadata = {
     'remoção de cargas',
     'Santa Catarina',
     'Rio de Janeiro',
+    'Coqueiros',
+    'Florianópolis',
+    'Via Expressa',
+    'Norte da Ilha',
+    'São José',
+    'Palhoça',
+    'Biguaçu',
   ],
 }
 
